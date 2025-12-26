@@ -1,0 +1,119 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CPC1779J"
+   (description "Solid State Relays - PCB Mount DC Only Single Pole i4-PAC")
+   (family "RLY")
+   (package "CPC1779J")
+   (attribute "Datasheet Link" "https://www.ixysic.com/home/pdfs.nsf/www/CPC1779J.pdf/$file/CPC1779J.pdf")
+   (attribute "Geometry.Height" "26.416mm")
+   (attribute "Mouser Part Number" "849-CPC1779J")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/CPC1779J?qs=h2iAtNzNjMRkLPNXZXaJVA%3D%3D")
+   (attribute "Manufacturer_Name" "LITTELFUSE")
+   (attribute "Manufacturer_Part_Number" "CPC1779J")
+   (gate
+    (symbol "CPC1779J")
+    (pin "D" 1 PS)
+    (pin "S" 2 PS)
+    (pin "K" 3 PS)
+    (pin "A" 4 PS)
+   )
+  )
+  (symbol "CPC1779J"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CPC1779J"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.337 1.918)
+      (pt 17.577 1.918)
+      (pt 17.577 -3.112)
+      (pt -2.337 -3.112)
+      (pt -2.337 1.918))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.38 1.918)
+      (pt 17.62 1.918)
+      (pt 17.62 -3.112)
+      (pt -2.38 -3.112)
+      (pt -2.38 1.918))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.38 2.918)
+      (pt 18.62 2.918)
+      (pt 18.62 -4.112)
+      (pt -3.38 -4.112)
+      (pt -3.38 2.918))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 2.4)
+      (arc (pt 0.000 2.400) (pt -0.050 2.300) (pt 0.050 2.400) (start 180.0) (sweep 90.0))
+      (pt 0 2.3)
+      (arc (pt 0.000 2.300) (pt -0.050 2.300) (pt 0.050 2.400) (start 180.0) (sweep -90.0))
+      (pt 0 2.4))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 3.810 0.000) (padstack 0))
+   (leg 3 (pt 11.430 0.000) (padstack 0))
+   (leg 4 (pt 15.240 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.62)
+    (plated true)
+    (pad (layer TCOP) (round 2.430))
+    (pad (layer INNER) (round 2.430))
+    (pad (layer BCOP) (round 2.430))
+   )
+   (model "CPC1779J.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

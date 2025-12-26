@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=CPC1779J
+PartCategory=Relay or Contactor
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2021-07-14 06:19:32
+Downloaded=2025-04-03 02:15:44
+3D=Y

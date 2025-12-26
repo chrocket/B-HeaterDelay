@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CPC1779J
+#/1201523/220791/2.50/4/3/Relay or Contactor
+DEF CPC1779J K 0 30 Y Y 1 F N
+F0 "K" 650 300 50 H V L CNN
+F1 "CPC1779J" 650 200 50 H V L CNN
+F2 "CPC1779J" 650 100 50 H I L CNN
+F3 "https://www.ixysic.com/home/pdfs.nsf/www/CPC1779J.pdf/$file/CPC1779J.pdf" 650 0 50 H I L CNN
+F4 "Solid State Relays - PCB Mount DC Only Single Pole i4-PAC" 650 -100 50 H I L CNN "Description"
+F5 "26.416" 650 -200 50 H I L CNN "Height"
+F6 "849-CPC1779J" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/CPC1779J?qs=h2iAtNzNjMRkLPNXZXaJVA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CPC1779J" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X D 1 0 0 200 R 50 50 0 0 P
+X S 2 0 -100 200 R 50 50 0 0 P
+X K 3 0 -200 200 R 50 50 0 0 P
+X A 4 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

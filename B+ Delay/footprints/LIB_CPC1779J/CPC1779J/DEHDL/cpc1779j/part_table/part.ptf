@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CPC1779J'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LITTELFUSE", "CPC1779J" (!) = "", "CPC1779J", "Other", "849-CPC1779J", "https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/CPC1779J?qs=h2iAtNzNjMRkLPNXZXaJVA%3D%3D", "Solid State Relays - PCB Mount DC Only Single Pole i4-PAC", "https://www.ixysic.com/home/pdfs.nsf/www/CPC1779J.pdf/$file/CPC1779J.pdf", "26.416 mm"
+END_PART
+
+END.
