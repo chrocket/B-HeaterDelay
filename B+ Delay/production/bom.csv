@@ -4,12 +4,13 @@ C5,0805,1,1uf 25v Ta,
 C6,CP_Elec_10x7.7,1,1000uf 16v,
 C8,1210,1,15uf 25v Ta,
 C9,CP_Elec_10x7.7,1,47uf 10v,
-D5,0805,1,1N4148,C2128 
+D5,D_SOD-123,1,1N4148,C2128 
 D6,Diode_Bridge_OnSemi_SDIP-4L,1,DF01S,
 J1,"TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",1,Pwr in,
-J2,TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal,1,B+ IN,
-J3,TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal,1,B+ Out,
+J2,TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal,1,B+ A,
+J3,TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal,1,B+ B,
 J4,"TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",1,LED,
+JP2,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,1,~,
 Q3,SOT-23,1,MMBT3904,C20526 
 Q4,SOT-23,1,MMBT3906,C5300004
 R1,0805,1,1k,C17513 
@@ -19,6 +20,7 @@ R11,0805,1,4.12K,C17667
 R4,0805,1,470k,C17709 
 R6,0805,1,200k,C17539 
 R9,0805,1,60,C17757 
+"TP+5, TP-DELAY2, TP-GND1, TP-LED1, TP-RELAY1, TP-RELAY2, TP-VOLTAGEDIV1",TestPoint_Keystone_5010-5014_Multipurpose,7,~,
 U1,TO-252-2,1,LM7805_TO220,C110908
 U2,SOIC-14_3.9x8.7mm_P1.27mm,1,SE556, C7427
 "U3, U4",CPC1779J,2,CPC1779,
