@@ -1497,6 +1497,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -3222,6 +3305,12 @@
 		(uuid "a70bcc7e-c5c0-449e-a940-394feb0ff0c7")
 	)
 	(junction
+		(at 191.77 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a865465e-71fc-46ce-a422-cf9f69fc9030")
+	)
+	(junction
 		(at 187.96 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3238,6 +3327,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0dd2b76-a691-4d43-9f74-fd6e005e936a")
+	)
+	(junction
+		(at 201.93 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba0c68f1-77ea-4a3a-9909-b91890e74526")
 	)
 	(junction
 		(at 68.58 72.39)
@@ -3510,6 +3605,16 @@
 			(type default)
 		)
 		(uuid "34d9827f-5bcf-4888-afe9-0c5efa4a6891")
+	)
+	(wire
+		(pts
+			(xy 191.77 149.86) (xy 194.31 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36af61b7-2d92-4c30-a635-49142220966a")
 	)
 	(wire
 		(pts
@@ -3813,16 +3918,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 105.41) (xy 187.96 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74fc0f37-210d-42e3-9e22-a7e705d47a2e")
-	)
-	(wire
-		(pts
 			(xy 38.1 74.93) (xy 38.1 85.09)
 		)
 		(stroke
@@ -3903,6 +3998,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 134.62) (xy 201.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8823937c-f5cf-4598-88f9-eedd9ec78a7d")
+	)
+	(wire
+		(pts
 			(xy 120.65 106.68) (xy 120.65 109.22)
 		)
 		(stroke
@@ -3943,7 +4048,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 105.41) (xy 187.96 113.03)
+			(xy 187.96 104.14) (xy 187.96 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3980,6 +4085,16 @@
 			(type default)
 		)
 		(uuid "8f96fd41-d07f-4065-8ca9-7171971aecc8")
+	)
+	(wire
+		(pts
+			(xy 191.77 134.62) (xy 191.77 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9281a714-4ddf-4e40-b3ce-2da2d5ffc3fd")
 	)
 	(wire
 		(pts
@@ -4443,7 +4558,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 149.86) (xy 194.31 149.86)
+			(xy 187.96 149.86) (xy 191.77 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4732,7 +4847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 124.46 99.06 0)
 			(effects
 				(font
@@ -4883,7 +4998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 139.192 89.154 0)
 			(effects
 				(font
@@ -5515,7 +5630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 127 72.39 0)
 			(effects
 				(font
@@ -6083,7 +6198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 151.13 80.01 0)
 			(effects
 				(font
@@ -6124,7 +6239,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 189.23 102.87 0)
+		(at 187.96 101.6 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6133,7 +6248,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ca45ad3-5abc-4537-b75a-0ca3aa1de08a")
 		(property "Reference" "H1"
-			(at 191.77 100.9649 0)
+			(at 190.5 99.6949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,7 +6257,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 191.77 102.87 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,7 +6266,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
-			(at 189.23 102.87 0)
+			(at 187.96 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +6275,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 102.87 0)
+			(at 187.96 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +6284,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 189.23 102.87 0)
+			(at 187.96 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,6 +6510,71 @@
 			(project ""
 				(path "/eb471509-faf7-400e-b08f-dadb99c91d71"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 182.88 82.55 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6189d530-52d6-481f-a459-6cb2a267d0ff")
+		(property "Reference" "H5"
+			(at 185.42 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 185.42 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/eb471509-faf7-400e-b08f-dadb99c91d71"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -6894,6 +7074,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 193.04 82.55 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70d90245-4de0-4c07-8656-54387770f850")
+		(property "Reference" "H6"
+			(at 195.58 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 195.58 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 193.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 193.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "B+ Delay"
+				(path "/eb471509-faf7-400e-b08f-dadb99c91d71"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 72.39 166.37 0)
 		(unit 1)
@@ -7122,7 +7367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 193.04 149.86 0)
 			(effects
 				(font
@@ -7190,7 +7435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 105.41 72.39 0)
 			(effects
 				(font
@@ -8980,7 +9225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
 			(at 179.07 62.23 0)
 			(effects
 				(font
@@ -9080,6 +9325,75 @@
 			(project ""
 				(path "/eb471509-faf7-400e-b08f-dadb99c91d71"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 196.85 134.62 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df12ca72-db01-4390-b39a-38012a40f745")
+		(property "Reference" "JP3"
+			(at 196.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 196.85 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 196.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 196.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d04376f0-7f7b-469d-86a5-329e3a6b8d7e")
+		)
+		(pin "2"
+			(uuid "bd037ba9-9606-4ed3-a3a8-78110b6ba219")
+		)
+		(instances
+			(project ""
+				(path "/eb471509-faf7-400e-b08f-dadb99c91d71"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
