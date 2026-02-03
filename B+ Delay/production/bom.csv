@@ -10,8 +10,10 @@ J1,"TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",1,Pwr in,
 J2,TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal,1,B+ A,
 J3,TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal,1,B+ B,
 J4,"TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",1,LED,
-JP1_15S1,SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,1, ,
-"JP2_30S1, JP3, JP3_30S1",SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,3,Jumper_2_Open,
+JP1,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,1,15 sec,
+JP2,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,1,45s,
+JP3,SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,1,60sec,
+JP4,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,1,Jumper_2_Open,
 Q3,SOT-23,1,MMBT3904,C20526 
 Q4,SOT-23,1,MMBT3906,C5300004
 R1,0805,1,1k,C17513 

@@ -4923,7 +4923,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 55.88 134.62 90)
+		(at 27.94 138.43 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -4931,8 +4931,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10c806fe-b358-45e2-94e9-7b56112f582f")
-		(property "Reference" "JP1_15S1"
-			(at 57.15 133.3499 90)
+		(property "Reference" "JP3"
+			(at 29.21 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,18 +4940,17 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 57.15 135.8899 90)
+		(property "Value" "60sec"
+			(at 29.21 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-			(at 55.88 134.62 0)
+			(at 27.94 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +4959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 134.62 0)
+			(at 27.94 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,7 +4968,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 55.88 134.62 0)
+			(at 27.94 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,9 +4983,9 @@
 			(uuid "c76cf272-e9e0-4cde-aac0-8d02d6a4811e")
 		)
 		(instances
-			(project ""
+			(project "B+ Delay"
 				(path "/eb471509-faf7-400e-b08f-dadb99c91d71"
-					(reference "JP1_15S1")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -5630,7 +5629,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 27.94 138.43 90)
+		(at 55.88 134.62 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -5638,8 +5637,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d9c3056-bb9d-417f-aec9-d74f9bf290ab")
-		(property "Reference" "JP3_30s1"
-			(at 29.21 137.1599 90)
+		(property "Reference" "JP1"
+			(at 57.15 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,18 +5646,17 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
-			(at 29.21 139.6999 90)
+		(property "Value" "15 sec"
+			(at 57.15 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 27.94 138.43 0)
+			(at 55.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,7 +5665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 138.43 0)
+			(at 55.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5676,7 +5674,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 27.94 138.43 0)
+			(at 55.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,7 +5691,7 @@
 		(instances
 			(project "B+ Delay"
 				(path "/eb471509-faf7-400e-b08f-dadb99c91d71"
-					(reference "JP3_30s1")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -6222,7 +6220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fe3fdc2-db54-4411-82f8-2b124679c45c")
-		(property "Reference" "JP2_30s1"
+		(property "Reference" "JP2"
 			(at 44.45 137.1599 90)
 			(effects
 				(font
@@ -6231,14 +6229,13 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
+		(property "Value" "45s"
 			(at 44.45 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
@@ -6277,7 +6274,7 @@
 		(instances
 			(project ""
 				(path "/eb471509-faf7-400e-b08f-dadb99c91d71"
-					(reference "JP2_30s1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -9610,8 +9607,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df12ca72-db01-4390-b39a-38012a40f745")
-		(property "Reference" "JP3"
-			(at 196.85 128.27 0)
+		(property "Reference" "JP4"
+			(at 196.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9663,7 +9660,7 @@
 		(instances
 			(project ""
 				(path "/eb471509-faf7-400e-b08f-dadb99c91d71"
-					(reference "JP3")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
