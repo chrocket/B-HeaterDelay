@@ -4,3 +4,5 @@ SMD version of Pete Millett B++ heater delay (only delay portion) http://www.pmi
 The "main" branch has a one relay version.
 
 Branch "dual" has two relays.
+
+Use B_Delay_20260203_rev5d.zip for production build.
