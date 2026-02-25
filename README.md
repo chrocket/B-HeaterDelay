@@ -17,7 +17,7 @@ The "main" branch has a one relay version.  Use 6/28/25 production files
 
 
 
-Branch "dual" has two relays.  Use 12/25 production files.
+Branch "dual" has two relays.  Use B_Delay_20260203_rev5d.zip production files.
 
 
 
