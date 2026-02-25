@@ -5759,7 +5759,7 @@
 		)
 		(property "Value" "15 sec"
 			(at 0 1.9 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "ce42e0f0-79fb-47dc-981e-68f2102dbc51")
 			(effects
 				(font
@@ -6684,7 +6684,7 @@
 		)
 		(property "Value" "60sec"
 			(at 0 1.9 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "016b33d0-9832-47e4-8574-781388633c1e")
 			(effects
 				(font
@@ -9697,7 +9697,7 @@
 		)
 		(property "Value" "45s"
 			(at -3.15 -0.5 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "c0f17aaf-a1d0-46a3-aa54-b58eb43df61c")
 			(effects
 				(font
@@ -11910,6 +11910,19 @@
 		)
 	)
 	(gr_text "+"
+		(at 179 -297 0)
+		(layer "F.SilkS")
+		(uuid "252e4ae7-16e4-4c8c-bb08-ca9a53e6a88e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
 		(at 172.5 -346.5 0)
 		(layer "F.SilkS")
 		(uuid "5d2e43cc-8092-4c4b-8de3-20f0eaeefff0")
@@ -11922,7 +11935,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Millett/Heisey\nB++ Delay Rev 5d"
+	(gr_text "Millett/Heisey\nB++ Delay Rev 5e"
 		(at 212 -296 0)
 		(layer "F.SilkS")
 		(uuid "8d2685e7-c15d-4d83-ad75-60b23ef768e2")
@@ -11936,7 +11949,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 199 -297.5 0)
+		(at 199 -289.5 0)
 		(layer "F.SilkS")
 		(uuid "b0fe9a06-36cc-43e9-87cf-dc7bd7067bd6")
 		(effects
